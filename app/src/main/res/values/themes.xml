@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="LogoCircleStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#FF18B7A4</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#FF0A1024</item>
+        <item name="android:navigationBarColor">#FF0A1024</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="FXCAndroidTheme" parent="Base.AppTheme" />
+
+    <style name="FxcOptionsDialog" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/loading_card_bg</item>
+        <item name="android:colorAccent">#FF7651E8</item>
+        <item name="android:textColorPrimary">#FF291842</item>
+        <item name="android:textColorSecondary">#FF7651E8</item>
+        <item name="android:windowMinWidthMajor">82%</item>
+        <item name="android:windowMinWidthMinor">82%</item>
+    </style>
+    <style name="ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/button</item>
+    </style>
+
+    <style name="CustomCheckbox02" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:buttonTint"> @color/button</item>
+    </style>
+
+</resources>
